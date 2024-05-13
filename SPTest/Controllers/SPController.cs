@@ -41,8 +41,6 @@ namespace SPTest.Controllers
         {
             var salaryParam = new SqlParameter("@Salary", SqlDbType.Decimal)
             {
-                Precision = 18,
-                Scale = 2,
                 Direction = ParameterDirection.Output
             };
 
