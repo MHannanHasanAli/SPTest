@@ -1,0 +1,6 @@
+@SPTest_HostAddress = http://localhost:5148
+
+GET {{SPTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
